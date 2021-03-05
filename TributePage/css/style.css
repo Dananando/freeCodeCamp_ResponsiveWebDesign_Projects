@@ -1,0 +1,95 @@
+html {
+    font-family: Arial, Helvetica, sans-serif, serif;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+/* Setup of the <header> and its children */
+.main__header {
+    margin: auto;
+}
+
+.main__header__h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em 0 0 0;
+}
+
+.main__header__h1__em {
+    display: block;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 1em 0 0.5em 0;
+}
+
+#img_div {
+    background-color: white;
+    width: calc(100% - 2em);
+    margin: auto;
+    padding: 0 0 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+body #main .main__header #img_div .main__header__figure figcaption {
+    padding: 1em 0 0.5em 0;
+    text-align: center;
+}
+
+/* Setup of the <main> */
+#tribute-info {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 3em 0 2em 0;
+    text-align: center;
+}
+
+ul {
+    /* if you want the standard bullets, use 'disc' instead of 'circle' */
+    list-style: disc;
+    list-style-position: inside;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  }
+
+li {
+    padding: 1em 0 1em 0;
+    margin: auto;
+    width: calc(100% - 66.6%);
+} 
+
+.body__main__p {
+    font-style: italic;
+    width: calc(100% - 66.6%);
+    margin: auto;
+    padding: 3em 0 0 0;
+}
+
+.body__main__p__span {
+    display: block;
+    padding: 1em 0 0 0;
+}
+
+/* Setup of the <footer> */
+footer {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 3em 0 2em 0;
+    text-align: center;
+}
+
+#tribute-link {
+    color: blue;
+    text-decoration: underline;
+}
